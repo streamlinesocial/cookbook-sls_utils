@@ -8,6 +8,10 @@ version           "0.0.0"
   supports os, ">= 6.0"
 end
 
+recommends "php", ">= 1.0.2"
+recommends "apache2", ">= 1.1.12"
+recommends "iptables"
+
 recipe "sls_utils", "Empty recipe."
 recipe "sls_utils::port_http", "Opens port 80 in the iptables."
 recipe "sls_utils::port_ssh", "Opens port 22 in the iptables."
