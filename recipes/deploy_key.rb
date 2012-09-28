@@ -1,11 +1,9 @@
-directory "/srv/.ssh" do
-  # owner "apache"
+directory "/tmp/.ssh" do
   recursive true
 end
 
-cookbook_file "/srv/.ssh/wrap-ssh4git.sh" do
+cookbook_file "/tmp/.ssh/wrap-ssh4git.sh" do
   source "wrap-ssh4git.sh"
-  # owner "apache"
   mode 0700
 end
 
