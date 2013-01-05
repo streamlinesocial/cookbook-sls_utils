@@ -22,6 +22,15 @@
 #   action :run
 # end
 
+script "add_usr_local_to_path" do
+    interpreter "bash"
+    user "root"
+    cwd "/tmp"
+    code <<-EOH
+    echo 'export PATH=$PATH:/usr/local/bin' > /etc/profile.d/usrlocal.sh
+    EOH
+end
+
 script "add_usr_sbin_to_path" do
   interpreter "bash"
   user "root"
