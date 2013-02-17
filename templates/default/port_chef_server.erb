@@ -1,0 +1,5 @@
+# Port 4321 for chef bookshelf
+# -A FWR -p tcp -m tcp --dport 4321 -j ACCEPT
+
+# Port 8000 for chef api
+-A FWR -p tcp -m tcp --dport 8000 -j ACCEPT
