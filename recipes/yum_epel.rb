@@ -8,7 +8,7 @@ remote_file "epel-release-rpm" do
     action :create_if_missing
     backup false
     notifies :install, "yum_package[epel-release]", :immediately
-    # not_if "test -f /etc/yum.repos.d/epel-release.repo"
+    not_if "test -f /etc/yum.repos.d/epel.repo"
 end
 
 yum_package "epel-release" do
