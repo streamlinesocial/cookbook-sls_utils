@@ -1,5 +1,6 @@
 ### 0.0.1
 
+- Added port_jenkins_jnlp recipe for opening the jenins port
 - Added yum_remove recipe to clear the way for installs that are attribute defined (e.g. mysql client/server)
 - Added usrlocal.sh to /etc/profile.d to add /usr/local/bin to the executable global path
 - Added recipe for chef server port sls_utils::port_chef_server
