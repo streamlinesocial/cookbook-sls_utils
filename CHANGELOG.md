@@ -1,4 +1,10 @@
-### 0.0.1
+0.2.0
+=====
+
+- update for chef 11.4.4, seems resources are throwing errors for the chef < 10.x fix for defaults
+
+0.0.1
+=====
 
 - Added port_jenkins_jnlp recipe for opening the jenins port
 - Added yum_remove recipe to clear the way for installs that are attribute defined (e.g. mysql client/server)

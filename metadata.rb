@@ -2,7 +2,7 @@ maintainer        "Streamline Social"
 maintainer_email  "support@streamlinesocial.com"
 license           "Apache 2.0"
 long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version           "0.0.1"
+version           "0.2.0"
 
 %w{ centos }.each do |os|
   supports os, ">= 6.0"
@@ -10,7 +10,7 @@ end
 
 recommends "php", ">= 1.0.2"
 recommends "apache2", ">= 1.1.12"
-recommends "iptables"
+recommends "iptables", ">= 0.12.0"
 
 recipe "sls_utils", "Empty recipe."
 recipe "sls_utils::port_http", "Opens port 80 in the iptables."
