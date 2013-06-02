@@ -1,6 +1,7 @@
 0.2.0
 =====
 
+- added yum_install recipe to manage adding yum repos at compile time (support mysql/database cookbook with custom mysql packages)
 - update for chef 11.4.4, seems resources are throwing errors for the chef < 10.x fix for defaults
 
 0.0.1
