@@ -1,3 +1,9 @@
+0.2.1
+=====
+
+- updated the yum_remove recipe to run durring compile time so that use case of mysql/database cookbook with
+  custom yum package can work with yum_install recipe
+
 0.2.0
 =====
 

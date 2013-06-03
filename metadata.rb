@@ -2,7 +2,7 @@ maintainer        "Streamline Social"
 maintainer_email  "support@streamlinesocial.com"
 license           "Apache 2.0"
 long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version           "0.2.0"
+version           "0.2.1"
 
 %w{ centos }.each do |os|
   supports os, ">= 6.0"
