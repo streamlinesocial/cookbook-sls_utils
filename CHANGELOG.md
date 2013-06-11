@@ -1,3 +1,8 @@
+0.3.0
+=====
+
+- Added munin node port whitelist
+
 0.2.1
 =====
 
