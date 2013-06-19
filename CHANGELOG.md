@@ -1,3 +1,8 @@
+0.4.0
+=====
+
+- add exim disable / setup postfix recipe
+
 0.3.0
 =====
 

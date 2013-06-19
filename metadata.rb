@@ -2,12 +2,13 @@ maintainer        "Streamline Social"
 maintainer_email  "support@streamlinesocial.com"
 license           "Apache 2.0"
 long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version           "0.3.0"
+version           "0.4.0"
 
 %w{ centos }.each do |os|
   supports os, ">= 6.0"
 end
 
+recommends "postfix", ">= 2.1.6"
 recommends "php", ">= 1.0.2"
 recommends "apache2", ">= 1.1.12"
 recommends "iptables", ">= 0.12.0"
