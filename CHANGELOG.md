@@ -1,7 +1,13 @@
+0.4.1
+=====
+
+- Added mysql 3306 port access from localhost
+
 0.4.0
 =====
 
 - add exim disable / setup postfix recipe
+
 
 0.3.0
 =====

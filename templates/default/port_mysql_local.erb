@@ -1,0 +1,2 @@
+# Port 3306 for mysql  only from localhost
+-A INPUT -s 127.0.0.1/32 -i eth0 -p tcp -m tcp --dport 3306 -j ACCEPT 
