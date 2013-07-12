@@ -1,3 +1,8 @@
+0.5.0
+=====
+
+- Added rundeck port access recipe (requires rundeck recipe)
+
 0.4.1
 =====
 
