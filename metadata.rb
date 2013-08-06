@@ -12,6 +12,7 @@ recommends "postfix", ">= 2.1.6"
 recommends "php", ">= 1.0.2"
 recommends "apache2", ">= 1.1.12"
 recommends "iptables", ">= 0.12.0"
+recommends "git"
 
 recipe "sls_utils", "Empty recipe."
 recipe "sls_utils::port_http", "Opens port 80 in the iptables."
@@ -20,3 +21,4 @@ recipe "sls_utils::deploy_key", "Creates a private key for the apache user for s
 recipe "sls_utils::default_site", "Override apache2 cookbook's default site."
 recipe "sls_utils::centos_profile", "Ensure the /usr/sbin (and maybe other folers) are in the PATH var."
 recipe "sls_utils::port_mysql_local", "Open port 3306 in the iptables for accessing from localhost."
+recipe "sls_utils::git_install", "Install git via the community cookbook, but look to attribs to see if source or package install is desired."

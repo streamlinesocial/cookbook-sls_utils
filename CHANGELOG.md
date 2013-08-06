@@ -2,6 +2,7 @@
 =====
 
 - Added rundeck port access recipe (requires rundeck recipe)
+- Added git install recipe to enable package / source install to be an attrib, wrapping the contriburted cookbook
 
 0.4.1
 =====
