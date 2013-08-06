@@ -8,11 +8,11 @@ version           "0.5.0"
   supports os, ">= 6.0"
 end
 
+depends "git"
 recommends "postfix", ">= 2.1.6"
 recommends "php", ">= 1.0.2"
 recommends "apache2", ">= 1.1.12"
 recommends "iptables", ">= 0.12.0"
-recommends "git"
 
 recipe "sls_utils", "Empty recipe."
 recipe "sls_utils::port_http", "Opens port 80 in the iptables."
