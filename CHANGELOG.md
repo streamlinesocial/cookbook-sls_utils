@@ -1,3 +1,8 @@
+0.6.0
+=====
+
+- add only_if yum/grep check in removal of packages to ensure that exact matchs are made rather than letting yum remove match similar packages that claim to meet the same dependencies
+
 0.5.0
 =====
 
