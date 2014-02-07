@@ -1,3 +1,8 @@
+0.6.1
+=====
+
+- only run centos_profile changes if not already applied
+
 0.6.0
 =====
 

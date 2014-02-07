@@ -29,6 +29,7 @@ script "add_usr_local_to_path" do
     code <<-EOH
     echo 'export PATH=$PATH:/usr/local/bin' > /etc/profile.d/usrlocal.sh
     EOH
+    not_if { ::File.exist?('/etc/profile.d/usrlocal.sh') }
 end
 
 script "add_usr_sbin_to_path" do
@@ -39,4 +40,5 @@ script "add_usr_sbin_to_path" do
   chmod +x /etc/profile
   /etc/profile
   EOH
+  not_if "ls -la /etc/profile | grep 'rwxr-xr-x'"
 end
