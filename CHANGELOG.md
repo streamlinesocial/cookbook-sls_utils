@@ -1,3 +1,8 @@
+0.6.2
+=====
+
+- patch to default to proper ius release 1.0-13 by default, 1.0-11 now is 404
+
 0.6.1
 =====
 
