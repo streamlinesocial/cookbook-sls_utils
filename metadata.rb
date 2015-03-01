@@ -1,3 +1,4 @@
+name              "sls_utils"
 maintainer        "Streamline Social"
 maintainer_email  "support@streamlinesocial.com"
 license           "Apache 2.0"
