@@ -21,7 +21,7 @@ major       = node['platform_version'].to_i
 epel        = node['sls_utils']['yum_install']['epel_release']
 ius         = node['sls_utils']['yum_install']['ius_release']
 epel_url    = "http://dl.fedoraproject.org/pub/epel/#{major}/x86_64/epel-release-#{major}-#{epel}.noarch.rpm"
-ius_url     = "http://dl.iuscommunity.org/pub/ius/stable/Redhat/#{major}/i386/ius-release-#{ius}.ius.el#{major}.noarch.rpm"
+ius_url     = "http://dl.iuscommunity.org/pub/ius/stable/CentOS/#{major}/i386/ius-release-#{ius}.ius.centos#{major}.noarch.rpm"
 epel_file   = "#{Chef::Config[:file_cache_path]}/epel-release-#{major}-#{epel}.noarch.rpm"
 ius_file    = "#{Chef::Config[:file_cache_path]}/ius-release-#{ius}.ius.el#{major}.noarch.rpm"
 

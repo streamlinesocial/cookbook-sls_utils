@@ -1,3 +1,9 @@
+0.6.3
+=====
+
+- patch to default to proper ius release 1.0-14 by default
+- use CentOS release rather than RedHat release
+
 0.6.2
 =====
 
